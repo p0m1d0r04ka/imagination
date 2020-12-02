@@ -10,7 +10,7 @@ import os
 import platform
 
 HOME_PATH = os.path.expanduser("~")
-SPAMMER_PATH = os.path.join(HOME_PATH + "/" + ".imagination/")
+SPAMMER_PATH = os.path.join(HOME_PATH + "/" + ".vk-spammer/")
 
 API_VERSION = 5.73
 
@@ -152,7 +152,7 @@ if(args.editmessages):
 		os.system("notepad.exe " + SPAMMER_PATH + "messages.txt")
 	if platform.system() == "Linux":
 		os.system("nano " + SPAMMER_PATH + "messages.txt")
-	print("Please restart imagination to reload the message list")
+	print("Please restart vk-spammer to reload the message list")
 	exit(0)
 
 username = input("Login: ")
