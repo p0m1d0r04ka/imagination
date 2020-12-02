@@ -9,7 +9,7 @@ setup(
     version='1.2.2.3',
     author='p0m1d0r41k',
     author_email='forse373@gmail.com',
-    url='',
+    url='https://github.com/p0m1d0r04ka/imagination',
     long_description_content_type="text/markdown",
     packages=find_packages(),
     long_description=LONG_DESC,
