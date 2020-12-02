@@ -5,17 +5,17 @@ DESCRIPTION = 'Спаммер для ВК'
 LONG_DESC = DESCRIPTION
 
 setup(
-    name='vk-spammer',
+    name='imagination',
     version='1.2.2.3',
-    author='fgRuslan',
-    author_email='ubijca16@gmail.com',
-    url='https://github.com/fgRuslan/vk-spammer',
+    author='p0m1d0r41k',
+    author_email='forse373@gmail.com',
+    url='',
     long_description_content_type="text/markdown",
     packages=find_packages(),
     long_description=LONG_DESC,
     entry_points={
         'console_scripts':
-            ['vk-spammer=core.spam:main']
+            ['imagination=core.spam:main']
     },
     install_requires=[
         'vk'
