@@ -1,15 +1,15 @@
-# Vk-spammer
+# imagination
 Просто спаммер...
 Установка спаммера:
 
 ```
-pip install vk-spammer
+pip install imagination
 ```
 
 ### Запуск
 
 ```
-vk-spammer
+imagination
 ```
 
 В скрипте укажите id пользователя, которого вы хотите заспамить.
